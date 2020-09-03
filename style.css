@@ -1,0 +1,780 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+	padding-right: -5%;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+  font-weight: bold;
+}
+
+/*.............. header section .....................*/
+.nav-item
+{
+	padding: 0 15px;
+	border-radius: 5px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.nav-item:hover
+{
+	background: #E4DFDF;
+	transition: .5s;
+}
+
+#collapsibleNavbar
+{
+	transition: .5s;
+}
+
+.wrapper
+{
+	background: linear-gradient(45deg, #cc00cc,#ff0066);
+	background-size: cover no-repeat;
+	width: 100%;
+	height: auto;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.logo
+{
+	border: 2px solid orange;
+	display: inline-block;
+	padding: 4px 10px;
+	font-weight: bold;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.logo::before
+{
+	content: "";
+	width: 100%;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: orange;
+}
+
+.logo:hover::before
+{
+	height: 100%;
+	transition: .5s;
+}
+
+
+.input-box
+{
+	width: 90%;
+	height: 40px;
+	background-color: #F1F1F1;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.input-box:hover
+{
+	transform: scale(1.1);
+	transition: .6s;
+	transition-delay: .2s;
+}
+
+.hire-me
+{
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid blue;
+	width: 100px; 
+	height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transform: scale(1.2);
+}
+
+.hire-me:hover
+{
+	transform: scale(1.2);
+	background: #3fff51;
+	color: white;
+	font-weight: bold;
+	transition: .6s;
+	border: 1px solid #40ff09;
+}
+
+.submit-box
+{
+	width: 90%;
+	height: 40px;
+	background-color: blue;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.submit-box:hover
+{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+
+/*.............. header section closed .....................*/
+
+
+/*.............. content section .....................*/
+
+.containe
+{
+	background: white; display: inline-block; text-align: center;
+	margin-top: 4%;
+	padding-bottom: 2%;
+}
+
+.text-serv
+{
+	display: inline-block;
+	font-size: 10px;
+	color: gray;
+}
+
+.text-serv-2
+{
+	color: black;
+	font-weight: bold;
+}
+
+.section
+{
+	width: 70%;
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.link-text a
+{
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.btn:hover
+{
+	transform: scale(1.2);
+
+}
+
+
+
+/*............................. section 2 ...................*/
+
+.section-2-text
+{
+	display: inline-block;
+	color: gray;
+	font-weight: bolder;
+	padding: 50px 50px 10px;
+}
+
+..section-2-text-2
+{
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+}
+
+.ourmission
+{
+	width: 90%; 
+	height: auto;
+	color: blue;
+	font-weight: bold;
+	border: 1px solid blue;
+	text-align: center;
+	display: inline-block;
+    margin-right: 4%;
+    margin-top: 3%;
+    padding: 5px;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.ourmission:hover
+{
+	background-color: blue;
+	color: white;
+	transform: scale(1.1);
+}
+
+.ourmission1
+{
+	width: 90%; 
+	height: auto;
+	color: blue;
+	font-weight: bold;
+	border: 1px solid blue;
+	text-align: center;
+	display: inline-block;
+    margin-right: 2%;
+    margin-top: 3%;
+    padding: 5px;
+     border-radius: 4px;
+      transition: .5s;
+}
+
+.ourmission1:hover
+{
+	background-color: blue;
+	color: white;
+	transform: scale(1.1);
+}
+
+
+.ourmission2
+{
+	width: 90%; 
+	height: auto;
+	color: blue;
+	font-weight: bold;
+	border: 1px solid blue;
+	text-align: center;
+	display: inline-block;
+    margin-left: -2%;
+    margin-top: 3%;
+    padding: 5px;
+     border-radius: 4px;
+      transition: .5s;
+}
+
+.ourmission2:hover
+{
+	background-color: blue;
+	color: white;
+	transform: scale(1.1);
+}
+
+.ourmission3
+{
+	width: 90%; 
+	height: auto;
+	color: blue;
+	font-weight: bold;
+	border: 1px solid blue;
+	text-align: center;
+	display: inline-block;
+    margin-left: 4%;
+    margin-top: 3%;
+    padding: 5px;
+     border-radius: 4px;
+      transition: .5s;
+}
+
+.ourmission3:hover
+{
+	background-color: blue;
+	color: white;
+	transform: scale(1.1);
+}
+
+/*.......................... our expert............*/
+
+.w3-third
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.w3-third:hover
+{
+	transform: scale(1.1);
+}
+
+
+/*..................... happy client.............*/
+
+.client
+{
+	color: orange; font-weight: bold; margin-top: 20%;
+}
+
+.client-number
+{
+	color: white; font-size: 20px; opacity: .7; font-weight: 500;
+}
+
+
+/*..................... help section ...............*/
+
+.help-text
+{
+	color: black; 
+	font-weight: 500;
+}
+
+.help-text-2
+{
+	color: gray; font-weight: 500;
+}
+
+.help-input-vox
+{
+	margin-top: 2%; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: -8%;
+}
+
+.help-input-vox-2
+{
+	margin-top: 2%; 
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+.help-input-vox-3
+{
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-top: -2%;
+}
+
+.help-input-vox-button
+{
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: -8%;
+	transition: .5s;
+}
+
+
+.help-input-vox-style
+{
+	width: 350px; height: 40px;
+	background-color: #A6A6A6;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+.help-input-vox-style-2
+{
+	width: 60%; height: 40px;
+	background-color: #A6A6A6;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+.help-input-vox-style-3
+{
+	width: 60%; height: 150px;
+	background-color: #A6A6A6;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+.help-input-vox-style-2:hover
+{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+.help-input-vox-style:hover
+{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+.help-input-vox-2
+{
+	margin-top: 2%; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+}
+
+/*.................... free quote.....................*/
+
+.getfree
+{
+	color: white;
+	margin-top: 5%;
+	margin-left: 13%;
+	display: inline-block;
+}
+
+.getfree-2
+{
+	color: white;
+	opacity: 400;
+	margin-left: 13%;
+}
+
+.getfree-button
+{
+	color: white;
+	display: inline-block;
+	background: transparent;
+	border: 2px solid white;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-weight: bold;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.getfree-button::before
+{
+	content: "";
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: #e600ac;
+	border-radius: 15px;
+	transition: .5s;
+	
+}
+
+.getfree-button:hover::before
+{
+	width: 100%;
+    transform: scale(1.2);
+}
+
+/*.......................... our lection.................*/
+
+.locetion-text
+{
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.address
+{
+	font-weight: bold; 
+	font-size: 20px; 
+	margin-left: 5px; 
+	display: inline-block; 
+	position: relative; 
+	top: 4px;
+}
+
+.address-2
+{
+	color: gray; margin-top: 2%; font-weight: bold;
+}
+
+/*..................... footer .......................... */
+
+.footer
+{
+	width: 100%; background: black;
+}
+
+.footer-right-div
+{
+	width: 100%; height: 150px; text-align: center;
+}
+
+.footer-right-div-content
+{
+	width: 80%; height: 100%; margin: 0 auto;
+}
+
+.how-to-geek
+{
+	font-weight: bold; color: white; margin-top: 3%;
+}
+
+.how-to-geek-content
+{
+	width: 50%; 
+	height: 30px; 
+	background: #3b5998; 
+	margin: 0 auto; 
+	border-radius: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.how-to-geek-content::before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: red;
+	border-radius: 10px;
+}
+
+.how-to-geek-content:hover::before
+{
+	width: 100%;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+.footer-fb
+{
+	float: left; padding-top: 5%; margin-left: 10%;
+}
+
+.footer-fb-text
+{
+	color: white; font-weight: bold; float: left; padding-top: 2%;
+}
+
+.how-to-geek-content-2
+{
+	width: 50%; 
+	height: 30px; 
+	background: #3b5998; 
+	margin: 0 auto; 
+	border-radius: 10px; 
+	margin-top: 2%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.how-to-geek-content-2::before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: red;
+	border-radius: 10px;
+}
+
+.how-to-geek-content-2:hover::before
+{
+	width: 100%;
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+
+.footer-twitter
+{
+	float: left; padding-top: 5%; margin-left: 10%;
+}
+
+.footer-twitter-text
+{
+	color: white; font-weight: bold; float: left; padding-top: 2%;
+}
+
+.footer-mid-div
+{
+	width: 100%; height: 150px;
+}
+
+.footer-mid-div-content
+{
+	width: 80%; height: 100%; margin: 0 auto;
+}
+
+.footer-subscribe-text
+{
+	color: white; font-weight: bold; text-align: center; margin-top: 15%; color: green;
+}
+
+.footer-input-box
+{
+	width: 60%; 
+	height: 34px; 
+	margin-top: 2%; 
+	margin-left: 10%; 
+	border: none; 
+	outline: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.footer-input-box:hover
+{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+.footer-signup-btn
+{
+	background: transparent;
+	color: white; 
+	margin-left: 3%; 
+	margin-bottom: 1%; 
+	font-weight: bold;
+	border: 1px solid white;
+	outline: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.footer-signup-btn::before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff0066;
+  z-index: -1;
+  transition: .5s;
+  content: "";
+  border-radius: 5px;
+}
+
+.footer-signup-btn:hover::before
+{
+	width: 100%;
+	transform: scale(1.2);
+}
+
+.footer-last-div
+{
+	width: 100%; height: 150px;
+}
+
+.footer-last-div-content
+{
+	width: 100%; height: 100%; float: left;
+}
+
+.footer-links
+{
+	color: white; font-weight: bold; text-align: center; margin-top: 5%; color: red;
+}
+
+.footer-links-box
+{
+	text-align: center;
+}
+
+#footer-home
+{
+	color: white; 
+	text-decoration: none; 
+	margin-right: 2%; 
+	transition: .5s;
+}
+
+#footer-about
+{
+	color: white; 
+	text-decoration: none;
+	margin-right: 2%;
+	transition: .5s;
+}
+
+#footer-portfolio
+{
+	color: white; 
+	text-decoration: none;
+	transition: .5s;
+}
+
+#footer-contact
+{
+	color: white; 
+	text-decoration: none; 
+	margin-left: 2%;
+	transition: .5s;
+}
+
+.footer-name
+{
+	background: linear-gradient(to left, #ac00e6, #ff1a8c);
+	animation: animate .4s linear infinite;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform: 0%;
+	}
+
+	100%
+	{
+		transform: 100%;
+	}
+}
+
+.we-run
+{
+	background: linear-gradient(to right, #ac00e6, #ff1a8c);
+	animation: animate1 0.4s linear infinite;
+}
+
+
+@keyframes animate1
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+
+	100%
+	{
+		transform: rotate(45de);
+	}
+}

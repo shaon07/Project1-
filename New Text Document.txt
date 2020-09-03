@@ -1,0 +1,76 @@
+<div class="container wrapper">
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<h5 style="margin-top: 20%; color: white; font-weight: bold;">Secure & IT Services</h5>
+			<h2 class="text-white font-weight-bold">Excellent IT</h2>
+			<h4 class="text-white font-weight-bold">services for your success</h4>
+
+			<button class="hire-me">Hire Me</button>
+		</div>
+
+		<div class="col-md-3 text-center bg-white" style="height: 60vh;">
+			<h4 class="text-center font-weight-bold" style="font-family: helvetica; display: inline-block; padding: 25px 25px 0;">Book appointment</h4>
+			<p style="color: gray;">Since we do not have any page to link it to</p>
+
+			<input type="text" placeholder="   Name *" class="input-box"><br>
+			<input type="Email" placeholder="   Email *" class="input-box"><br>
+			<input type="text" placeholder="   Your Inquery about *" class="input-box">
+
+			<button class="submit-box">Submit</button>
+		</div>
+	</div>
+</div>
+
+
+<style>
+
+.wrapper
+{
+	background: linear-gradient(45deg, #cc00cc,#ff0066);
+	background-size: cover no-repeat;
+	width: 100%;
+	height: auto;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.input-box
+{
+	width: 90%;
+	height: 40px;
+	background-color: #F1F1F1;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.input-box:hover
+{
+	transform: scale(1.1);
+	transition: .6s;
+	transition-delay: .2s;
+}
+
+.submit-box
+{
+	width: 90%;
+	height: 40px;
+	background-color: blue;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.submit-box:hover
+{
+	transform: scale(1.1);
+	transition: .5s;
+}
+
+
+</style>
